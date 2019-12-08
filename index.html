@@ -11,9 +11,77 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <!-- start header -->
+    <header>
+        <div class="custom-nav-container d-flex align-items-center justify-content-between px-2">
+            <a href="#" class="text-clipped navbar-brand">
+                <i class="fal fa-meteor d-flex">
+                    <span class="m-auto">Meteor</span>
+                </i>
+            </a>
+            <div class="main-nav-outer d-flex">
+                <i class="fal fa-times text-clipped menu-close-icon"></i>
 
-    <h1>Hello World</h1>
+                <nav class="main-nav navbar navbar-light navbar-expand-lg text-center m-auto">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Men</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Women</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Kids</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">New Arrivel</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Sale</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-icons-container d-flex justify-content-between">
+                <div class="nav-icons">
+                    <a href="#" class="text-clipped"><i class="fal fa-search"></i></a>
+                </div>
 
+                <div class="nav-icons">
+                    <a href="#" class="text-clipped"><i class="fal fa-shopping-bag bag-item-count"></i><span>2</span></a>
+                </div>
+                <div class="nav-icons">
+                    <div class="dropdown">
+                        <a  data-toggle="dropdown" href="" class="dropdown-toggle text-clipped">
+                            <i class="fal fa-user"></i>
+                        </a>
+                    
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <form action="" class="p2 text-secondary">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter E-Mail" required>
+                            </div>
+                            <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox"  id="dropdown-checkbox" class="form-check-input">
+                                <label for="dropdown-checkbox">Remember Me</label>
+                            </div>
+                            <button class="btn btn-bg" type="submit"></button>
+                        </form>
+                        <div class="dropdown-divider mt-0">
+                            <a href="#" class="dropdown-item">
+                                Don't Have  An Accout ? Sign up
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                Forget Your Password? Reset Now
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="nav-icons"> 
+                        <a href="#" class="text-clipped"><i class="fal fa-bars open-menu-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- testcode -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
