@@ -10,7 +10,13 @@ a{
 a:hover{
     color: #6c757d;
 }
-
+img{
+    width: 100%;
+    max-width: 100%;
+}
+section{
+    padding: 50px 0;
+}
 ul{
     list-style: none;
     margin: 0;
@@ -180,3 +186,20 @@ ul{
     }
 }
 /* header css End */
+/* start brands */
+.featured-brands img{
+    max-width: 100px;
+    max-height: 100px;
+    opacity: .7;
+    transition: opacity 650ms;
+}
+.featured-brands img:hover{
+    opacity: 1;
+}
+/* end brands */
+/* start women's collection */
+.hero-img{
+    padding: 15px;
+    margin: auto;
+}
+/* send women's collection */
