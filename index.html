@@ -13,14 +13,14 @@
 <body>
     <!-- start header -->
     <header>
-        <div class="custom-nav-container d-flex align-items-center justify-content-between px-2">
+        <div class="custom-nav-container d-flex align-items-center justify-content-between px-2 py-3 shadow-sm">
             <a href="#" class="text-clipped navbar-brand">
                 <i class="fal fa-meteor d-flex">
                     <span class="m-auto">Meteor</span>
                 </i>
             </a>
             <div class="main-nav-outer d-flex">
-                <i class="fal fa-times text-clipped menu-close-icon"></i>
+                <i class="fal fa-times text-clipped menu-close-icon d-flex d-lg-none"></i>
 
                 <nav class="main-nav navbar navbar-light navbar-expand-lg text-center m-auto">
                     <ul class="navbar-nav d-flex">
@@ -28,27 +28,28 @@
                         <li class="nav-item"> <a class="nav-link" href="#">Men</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#">Women</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#">Kids</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#">New Arrivel</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">New arrivels</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#">Sale</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="nav-icons-container d-flex justify-content-between">
                 <div class="nav-icons">
-                    <a href="#" class="text-clipped"><i class="fal fa-search"></i></a>
+                    <a href="#" ><i class="fal fa-search text-clipped"></i></a>
                 </div>
 
                 <div class="nav-icons">
-                    <a href="#" class="text-clipped"><i class="fal fa-shopping-bag bag-item-count"></i><span>2</span></a>
+                    <a href="#" ><i class="fal fa-shopping-bag text-clipped bag-item-count"></i><span
+                        class="badge">2</span></a>
                 </div>
                 <div class="nav-icons">
                     <div class="dropdown">
-                        <a  data-toggle="dropdown" href="" class="dropdown-toggle text-clipped">
-                            <i class="fal fa-user"></i>
+                        <a  data-toggle="dropdown" href="" class="dropdown-toggle">
+                            <i class="fal fa-user text-clipped"></i>
                         </a>
                     
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <form action="" class="p2 text-secondary">
+                    <div class="dropdown-menu">
+                        <form action="" class="p-2 text-secondary">
                             <div class="form-group">
                                 <input type="email" class="form-control" placeholder="Enter E-Mail" required>
                             </div>
@@ -57,24 +58,24 @@
                             </div>
                             <div class="form-check">
                                 <input type="checkbox"  id="dropdown-checkbox" class="form-check-input">
-                                <label for="dropdown-checkbox">Remember Me</label>
+                                <label for="dropdown-checkbox" class="form-check-label">Remember Me</label>
                             </div>
-                            <button class="btn btn-bg" type="submit"></button>
+                            <button class="btn btn-bg my-2" type="submit">Log In</button>
                         </form>
-                        <div class="dropdown-divider mt-0">
+                        <div class="dropdown-divider mt-0"></div>
                             <a href="#" class="dropdown-item">
                                 Don't Have  An Accout ? Sign up
                             </a>
                             <a href="#" class="dropdown-item">
                                 Forget Your Password? Reset Now
                             </a>
-                        </div>
+                        
                     </div>
                     </div>
                 </div>
                 
                 <div class="nav-icons"> 
-                        <a href="#" class="text-clipped"><i class="fal fa-bars open-menu-icon"></i></a>
+                    <i class="fal fa-bars open-menu-icon text-clipped"></i>
                 </div>
             </div>
         </div>
