@@ -295,8 +295,40 @@ footer{
 .footer-link:hover{
     opacity: .6;
 }
-.line{
+footer hr{
     border-top-color: rgba(255, 255,255, .8);
 
 }
 /* footer end */
+/* cart */
+.heading-has-bg{
+    background: linear-gradient(to left, rgba(35,213,227,0.7),rgba(145,37,185,0.7)),
+                url(images/hero/heading-img.jpeg) center no-repeat;
+    background-size:cover;
+    height: 30vh;
+}
+.heading-has-bg h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0.625rem 1.5rem rgba(0, 0, 0, .4);
+}
+
+.cart-item-container{
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.cart-item-container img{
+    max-width: 350px;
+}
+.remove-cart-item{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(220, 53, 69, .5);
+}
+/* End cart */
