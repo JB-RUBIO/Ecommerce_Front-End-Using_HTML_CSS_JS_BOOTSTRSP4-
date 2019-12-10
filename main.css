@@ -43,6 +43,12 @@ ul{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.section-heading h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
 /* End global style */
 
 
@@ -115,7 +121,7 @@ ul{
 
 .nav-icons .dropdown-menu{
     margin-top: 40px;
-    margin-left: -220px;
+    margin-left: -230px;
     position: relative;
     background-color: #fff;
 }
@@ -124,7 +130,7 @@ ul{
     content: '';
     position: absolute;
     top: -10px;
-    right: 50px;
+    right: 42px;
     width: 20px;
     height: 20px;
     background-color:inherit;
@@ -176,12 +182,12 @@ ul{
         border: none;
     }
     .nav-icons .dropdown-menu{
-        margin-left: -230px;
+        margin-left: -260px;
 
     }
 
     .nav-icons .dropdown-menu::before{
-        right: 40px;
+        right: 15px;
 
     }
 }
@@ -203,3 +209,36 @@ ul{
     margin: auto;
 }
 /* send women's collection */
+/* our Services */
+.our-services-icon{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 100%;
+}
+.our-services-icon::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: -2px;
+    border-radius: inherit;
+    background: linear-gradient(to bottom,#23d5e3,#9149b9);
+}
+.our-services-icon i{
+    font-size: 40px;
+
+}
+.our-services-description h5{
+    font-size: 16px;
+}
+.our-services-description p{
+    font-size: 14px;
+}
+/* end our Services */
